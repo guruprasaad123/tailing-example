@@ -1,5 +1,15 @@
 const Tail = require('tail').Tail;
 const axios = require('axios');
+const http = require('http');
+const https = require('https'); //Add This
+
+const httpAgent = new http.Agent({
+    rejectUnauthorized: false,
+});
+
+const httpsAgent = new https.Agent({
+    rejectUnauthorized: false,
+  });
 
 try {
 const tail = new Tail('./error.log');
@@ -21,6 +31,8 @@ tail.on('line',function(data){
      axios({
             method:'post',
             url:url,
+            httpsAgent: httpsAgent,
+            httpAgent: httpAgent,
             headers: { 'Content-Type': 'application/json' },
             data: body,
             auth: {
