@@ -1,0 +1,10 @@
+staring ERROR
+ending ERROR
+
+
+log {"@version":"1","host":"strproelk03","message":"66.249.69.216 10.16.48.61 - - [12/May/2020:23:24:06 -0600] \"GET /robots.txt HTTP/1.1\" 404 443 208","ApplicationName":"Oasis","Severity":"ERROR","@timestamp":"2020-05-16T19:46:25.908Z","tagfile_path":"log.log","path":"/etc/logstash/conf.d/nodejs/node.log"}
+
+{"@version":"1","host":"strproelk03","message":"66.249.69.216 10.16.48.61 - - [12/May/2020:23:24:06 -0600] \"GET /robots.txt HTTP/1.1\" 404 443 208","ApplicationName":"Oasis","Severity":"ERROR","@timestamp":"2020-05-16T19:46:25.908Z","tagfile_path":"log.log","path":"/etc/logstash/conf.d/nodejs/node.log"}
+
+
+{"@version":"1","host":"strproelk03","message":"66.249.69.216 10.16.48.61 - - [12/May/2020:23:24:06 -0600] \"GET /robots.txt HTTP/1.1\" 404 443 208","ApplicationName":"Oasis","Severity":"ERROR","@timestamp":"2020-05-16T19:46:25.908Z","tagfile_path":"log.log","path":"/etc/logstash/conf.d/nodejs/node.log"}
